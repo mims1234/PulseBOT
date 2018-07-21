@@ -1,6 +1,5 @@
 //Rainbow BOT code
 const BotPrefix = require("./prefix.json");
-const BotTokenFile = require("./token.json");
 const Discord = require("discord.js");
 
 const fs = require("fs");
@@ -57,4 +56,4 @@ let args = messageArray.slice(1);
 
 });
 //Key To Run BOT
-bot.login(BotTokenFile.token);
+bot.login(process.env.token);
