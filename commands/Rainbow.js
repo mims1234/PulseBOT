@@ -93,7 +93,7 @@ module.exports.run = async (bot,message,args) => {
                     intervalA = setInterval(function(){
                         mod = mod + 1;
                         Rcolor(mod,ColorCode)
-                    },1000)
+                    },30000)
                 }
                 else
                 {
