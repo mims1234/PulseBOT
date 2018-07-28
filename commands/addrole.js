@@ -10,7 +10,7 @@ module.exports.run = async (bot,message,args) => {
     {
         if(!userlog === '292675388180791297') return;
     }
-    if(message.guild.id != '445412739607691265' || message.guild.id != '423211874855682059') return
+    //if(message.guild.id != '445412739607691265' || message.guild.id != '423211874855682059') return
     
     message.delete().catch();
     var CDkey = Object.keys(CoolDown)
