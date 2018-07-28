@@ -43,7 +43,8 @@ module.exports.run = async (bot,message,args) => {
         break;
         default : return message.channel.send('Mention Type [ `cop` || `rainbow` || `alien` || `mys` || `ukraine` ] \n**Usage: ** `'+prefix+'rainbow on cop`').then(msg => msg.delete(5000));
     }
-    if(message.guild.id === '445412739607691265' || message.guild.id === '423211874855682059' || message.guild.id === '388992200630861825' )
+    //if(message.guild.id === '445412739607691265' || message.guild.id === '423211874855682059' || message.guild.id === '388992200630861825' )
+    if(message.guild.id === '442704155644264450')
     {
         //message.delete().catch();
         var CDkey = Object.keys(CoolDown)
