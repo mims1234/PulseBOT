@@ -4,7 +4,7 @@ const BotPrefix = require("../prefix.json");
 
 module.exports.run = async (bot,message,args) => {
 
-    if(message.guild.id != '445412739607691265') return
+    //if(message.guild.id != '445412739607691265') return
     let prefix = BotPrefix.prefix;
 
     let Embed = new Discord.RichEmbed()
